@@ -180,7 +180,7 @@ To understand clearly , assume that a new node **G** want to join this network. 
 
 
 
-<img href="https://user-images.githubusercontent.com/55465202/113517040-59390f00-9586-11eb-9755-8e2b5544650d.jpg" width=800/>
+<img src="https://user-images.githubusercontent.com/55465202/113517040-59390f00-9586-11eb-9755-8e2b5544650d.jpg" width=800/>
 
 
 As you see, G is joined the network...
