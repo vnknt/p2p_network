@@ -163,13 +163,13 @@ Here is an example of the message.
 # More
 This peer to peer network is unstructed. It means that network is created randomly. Each node has more than 2 peers. For example assume that there are 6 peers in the network. If you draw nodes and connections, it will be a network like that
 
-<img href="https://user-images.githubusercontent.com/55465202/113516908-9b158580-9585-11eb-834b-95448d08029d.jpg" width=800/>
+<img src="https://user-images.githubusercontent.com/55465202/113516908-9b158580-9585-11eb-834b-95448d08029d.jpg" width=800/>
 
 As you see, it is very complicated structure, and it is very hard to guess the structure since connections established randomly. 
 
 To understand clearly , assume that a new node **G** want to join this network. The schematic presentation of this process will be like that. 
 
-<img href="https://user-images.githubusercontent.com/55465202/113516907-994bc200-9585-11eb-9f37-62b33b708ae5.jpg" width=800/>
+<img src="https://user-images.githubusercontent.com/55465202/113516907-994bc200-9585-11eb-9f37-62b33b708ae5.jpg" width=800/>
 
 
 
