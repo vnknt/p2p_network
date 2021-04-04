@@ -163,79 +163,27 @@ Here is an example of the message.
 # More
 This peer to peer network is unstructed. It means that network is created randomly. Each node has more than 2 peers. For example assume that there are 6 peers in the network. If you draw nodes and connections, it will be a network like that
 
-
-
-
-
-
-
-
-```mermaid
-graph LR
-A(( A ))  --> B((B))
-A --> C((C))
-
-B --> D((D))
-C -->E((E))
-D-->F((F))
-D -->C
-C-->B
-E -->B
-D -->E
-F-->A
-
-```
-
-
+<img href="https://user-images.githubusercontent.com/55465202/113516908-9b158580-9585-11eb-834b-95448d08029d.jpg" width=800/>
 
 As you see, it is very complicated structure, and it is very hard to guess the structure since connections established randomly. 
 
 To understand clearly , assume that a new node **G** want to join this network. The schematic presentation of this process will be like that. 
 
-```mermaid
-sequenceDiagram
-G ->> Genesis node: give me a random node in network
+<img href="https://user-images.githubusercontent.com/55465202/113516907-994bc200-9585-11eb-9f37-62b33b708ae5.jpg" width=800/>
 
-Genesis node ->>G: Random node : C
-G ->> Genesis node : Thank you, good bye
-G ->>C:Hello C, give me some of your adjacents if you have
-C ->>G: D and B are my adjacents
-G->>C : Thank you
-G->> D:I connected to you.
-D->> G:I connected to you too.
-G->> B:I connected to you.
-B->> G:I connected to you too.
 
-```
+
+
+
+
 **After this process, the next presentation of graph will be like this  :**
 
-```mermaid
-graph LR
-A(( A ))  --> B((B))
-A --> C((C))
 
-B --> D((D))
-C -->E((E))
-D-->F((F))
-D -->C
-C-->B
-E -->B
-D -->E
-F-->A
-G-->B
-G-->D
-```
+
+<img href="https://user-images.githubusercontent.com/55465202/113517040-59390f00-9586-11eb-9755-8e2b5544650d.jpg" width=800/>
+
 
 As you see, G is joined the network...
-
-
-
-
-
-
-
-
-
 
 
 
