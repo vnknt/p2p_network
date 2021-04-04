@@ -8,7 +8,7 @@
         <li><a href="#what-is-peer-to-peer-network">What is Peer-to-peer Network</a></li>
 		<li><a href="#about-the-project">About the project</a></li>
 		<li><a href="#file-structure">File structure</a></li>
-		<li><a href="#code">Explanation of source code</a></li>
+		<li><a href="#usage">Explanation of source code</a></li>
    </ul>
    </li>
 
@@ -33,7 +33,7 @@
 
 ### What is Peer-to-Peer Network
 
-P2P network is a distruted network architecture that doesn't need a server for comminication. In p2p network, each computer that joined the network called Peer (or Node) and they are connected to each other directly. Mainly this network is used in file sharing and blockchain applications.
+P2P network is a distruted network architecture that doesn't need a central server for comminication. In p2p network, each computer that joined the network called Peer (or Node) and they are connected to each other directly. Mainly this network is used in file sharing and blockchain applications.
 
 
 
