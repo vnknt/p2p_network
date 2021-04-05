@@ -125,7 +125,7 @@ peer.start(5050)
 
 data=input()
 
-while(data != '!DISCONNECT'):
+while(True):
 	peer.broadcast(data)
 	data=input()
 
@@ -143,7 +143,7 @@ peer.start(5051)
 
 data=input()
 
-while(data != '!DISCONNECT'):
+while(True):
 	peer.broadcast(data)
 	data=input()
 
