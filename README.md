@@ -33,13 +33,13 @@
 
 ### What is Peer-to-Peer Network
 
-P2P network is a distruted network architecture that doesn't need a central server for comminication. In p2p network, each computer that joined the network called Peer (or Node) and they are connected to each other directly. Mainly this network is used in file sharing and blockchain applications.
+P2P network is a distributed network architecture that doesn't need a central server for communication. In p2p network, each computer that joined the network called Peer (or Node) and they are connected to each other directly. Mainly this network is used in file sharing and blockchain applications.
 
 
 
 ### About the project
 
-This project is coded for creating peer-to-peer network  and you can modify and use it in your projects. 
+This project is coded for creating a peer-to-peer network  and you can modify and use it in your projects. 
 
 A point of departure in this project is that I tried to create my own blockchain application, but I needed a peer-to-peer network , but I couldn't find a well-rounded example of p2p network. As a result of this, I created this p2p network project to use in my blockchain based application . 
 
@@ -55,11 +55,11 @@ As I mentioned, **everyone know genesis node's IP address and port.** Otherwise,
 <br/>
 If a device wants to join the p2p network, following will be take place: 
 
-- Candicate node (the device who wants to join the network)  will connect to **Genesis node** firstly,
+- Candidate node (the device who wants to join the network)  will connect to **Genesis node** firstly,
 - This node  ask for address and port of a random peer in the network from genesis node, 
-- If there exist one or more node in network (except for genesis node), the genesis node will send this existing ip address to the candicate device in json structure. Otherwise, candicate node will connect to genesis node
--  The following step is that this new peer will ask for the list of nodes in network. 
-- After these steps, the node joined the network. Now, this new node will broadcast that it joined the network.  All of other nodes that recieve this broadcast message will add this node's ip address and ports in to the list named as ***nodes_in_network***. In this way, all nodes know each other's address.
+- If there exists one or more node in the network (except for genesis node), the genesis node will send this existing ip address to the candidate device in json structure. Otherwise, candidate node will connect to genesis node
+-  The following step is that this new peer will ask for the list of nodes in the network. 
+- After these steps, the node joined the network. Now, this new node will broadcast that it joined the network.  All of other nodes that receive this broadcast message will add this node's ip address and ports in to the list named as ***nodes_in_network***. In this way, all nodes know each other's address.
 
   
 <br/>
@@ -130,7 +130,7 @@ while(True):
 	data=input()
 
 ```
-for example, If you want to create an another peer except for Genesis node, you should apply the same process for different ip address and port. (If you run this p2p network on your local network, each pear must start with on different port.)
+for example, If you want to create another peer except for Genesis node, you should apply the same process for different ip address and port. (If you run this p2p network on your local network, each pear must start with on different port.)
 
 ```python
 from Network import Network
@@ -148,7 +148,7 @@ while(True):
 	data=input()
 
 ```
-**broadcast method**, sends a broadcast json formatted message to all other peers in the network . It is guarantied that all peers recieve the broadcast message. This message includes message id, title, message , and timestamp. 
+**broadcast method**, sends a broadcast json formatted message to all other peers in the network . It is guaranteed that all peers receive the broadcast message. This message includes message id, title, message , and timestamp. 
 
 Here is an example of the message.
 ```
@@ -161,7 +161,7 @@ Here is an example of the message.
 
 ```
 # More
-This peer to peer network is unstructed. It means that network is created randomly. Each node has more than 2 peers. For example assume that there are 6 peers in the network. If you draw nodes and connections, it will be a network like that
+This peer to peer network is unstructured. It means that network is created randomly. Each node has more than 2 peers. For example assume that there are 6 peers in the network. If you draw nodes and connections, it will be a network like that
 
 <img src="https://user-images.githubusercontent.com/55465202/113516908-9b158580-9585-11eb-834b-95448d08029d.jpg" width=800/>
 
