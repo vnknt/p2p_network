@@ -140,7 +140,7 @@ peer.start(5051)
 
 #A peer started
 
-
+peer.join_network()
 data=input()
 
 while(True):
